@@ -25,7 +25,7 @@ while run:
     elif key[pygame.K_d] and plr.x < width - plr.width:
         plr.x += 1  
 
-    # Corrected the comparison operators from '=' to '=='
+
     if plr.x == 0:
         col += 1
        
@@ -38,6 +38,6 @@ while run:
         if event.type == pygame.QUIT:
             run = False
 
-    pygame.display.update()  # Update screen
+    pygame.display.update() 
 
 pygame.quit()
